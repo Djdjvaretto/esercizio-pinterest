@@ -1,0 +1,88 @@
+body {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.card {
+    height: 450px;
+    width: 350px;
+    border: 2px solid ;
+    border-radius: 40px;
+    object-fit: cover;
+}
+img {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position:center;
+    position: absolute
+}
+.save {
+    background-color:red ;
+    color: white;
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    border-radius: 25%;
+    text-align: center;
+    line-height: 40px;
+    right: 20px;
+    top: 3px;
+    opacity: 1;
+}
+.icone{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    z-index: 1;
+    width: 350px;
+    height: 450px;
+    opacity: 0.2;
+}
+.card:hover.save{
+    transition: translate(50px);
+    transition-timing-function: ease-in;
+    transform:translate(100%)
+}
+.icard:hover.icone{
+    display: block;
+    transition: 3s;
+}
+.info{
+    position: absolute;
+    background-color: whitesmoke;
+    height: 40px;
+    width: 160px;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    bottom: 5px;
+    left: 10px;
+    padding: 0.10px;
+}
+.download{
+    position: absolute;
+    background-color: whitesmoke;
+    height: 40px;
+    width: 40px;
+    border-radius: ;
+    text-align: center;
+    line-height: 40px;
+
+
+}
+option{
+    position: absolute;
+    background-color: whitesmoke;
+    height: 40px;
+    width: 40px;
+    border-radius: ;
+    text-align: center;
+    line-height: 40px;
+
+    
+}
